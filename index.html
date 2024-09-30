@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/LIGMATV/docsify-theme-github/github.css"
+    />
+    <link rel="stylesheet" href="assets/navbar-fixed.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <footer id="mb-footer"></footer>
+    </div>
+    <script>
+      window.$docsify = {
+        // https://github.com/jperasmus/docsify-copy-code
+        copyCode: {
+          buttonText: "Copy",
+          errorText: "Error",
+          successText: "Copied",
+        },
+        // https://github.com/imyelo/docsify-pagination
+        pagination: {
+          previousText: {
+            "/": "BACK TO",
+            "/fr/": "RETOUR À",
+            "/es/": "VOLVER A",
+            "/zh-cn/": "返回",
+            "/zh-tw/": "返回",
+            "/ru/": "Назад к",
+          },
+          // or
+          nextText: {
+            "/": "CONTINUE TO",
+            "/fr/": "SUIVANT",
+            "/es/": "SIGUIENTE",
+            "/zh-cn/": "继续",
+            "/zh-tw/": "繼續",
+            "/ru/": "Продолжить к",
+          },
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        search: {
+          maxAge: 86400000, // Expiration time, the default one day
+          paths: "auto",
+          // Localization
+          placeholder: {
+            "/zh-cn/": "输入搜索",
+            "/": "Type to Search",
+            "/ru/": "Начните вводить для поиска",
+            "/es/": "Escribe para buscar",
+            "/gr/": "Πληκτρολογήστε για αναζήτηση",
+            "/fr/": "Tapez pour rechercher",
+            "/zh-tw/": "輸入以搜索",
+            "/ja/": "検索するには入力してください",
+            "/ko/": "검색하려면 입력하세요",
+            "/de/": "Tippen zum Suchen",
+            "/pt/": "Digite para pesquisar",
+            "/it/": "Digita per cercare",
+            "/nl/": "Typ om te zoeken",
+          },
+          // Localization
+          noData: {
+            "/zh-cn/": "找不到结果",
+            "/": "No Results",
+            "/ru/": "Нет результатов",
+            "/es/": "No hay resultados",
+            "/gr/": "Δεν υπάρχουν αποτελέσματα",
+            "/fr/": "Aucun résultat",
+            "/zh-tw/": "找不到結果",
+            "/ja/": "結果がありません",
+            "/ko/": "결과 없음",
+            "/de/": "Keine Ergebnisse",
+            "/pt/": "Sem resultados",
+            "/it/": "Nessun risultato",
+            "/nl/": "Geen resultaten",
+          },
+          // Headline depth, 1 - 6
+          depth: 2,
+          hideOtherSidebarContent: false, // whether or not to hide other sidebar content
+        },
+        // // Auth
+        // auth: {
+        //   enable: true,
+        //   use: "sha256",
+        //   password:
+        //     "8f434346648f6b96df89dda901c5176b10a6d83961dd3c1ac88b59b2dc327aa4",
+        //   title: "Login",
+        //   paths: ["^/docs/"],
+        // },
+        search: "auto",
+        name: "Lodestone Docs",
+        themeColor: "#3F51B5",
+        auto2top: true,
+        loadSidebar: "side.md",
+        "flexible-alerts": {
+          style: 'flat',
+          note: {
+            label: {
+              "/zh-cn/": "备注",
+              "/": "Note",
+              "/ru/": "Примечание",
+              "/es/": "Nota",
+              "/gr/": "Σημείωση",
+              "/fr/": "Remarque",
+              "/zh-tw/": "備註",
+              "/ja/": "注意",
+              "/ko/": "참고",
+              "/de/": "Hinweis",
+              "/pt/": "Nota",
+              "/it/": "Nota",
+              "/nl/": "Opmerking",
+            },
+          },
+          tip: {
+            label: {
+              "/zh-cn/": "提示",
+              "/": "Tip",
+              "/ru/": "Совет",
+              "/es/": "Consejo",
+              "/gr/": "Συμβουλή",
+              "/fr/": "Astuce",
+              "/zh-tw/": "提示",
+              "/ja/": "ヒント",
+              "/ko/": "팁",
+              "/de/": "Tipp",
+              "/pt/": "Dica",
+              "/it/": "Suggerimento",
+              "/nl/": "Tip",
+            },
+          },
+          warning: {
+            label: {
+              "/zh-cn/": "警告",
+              "/": "Warning",
+              "/ru/": "Предупреждение",
+              "/es/": "Advertencia",
+              "/gr/": "Προειδοποίηση",
+              "/fr/": "Avertissement",
+              "/zh-tw/": "警告",
+              "/ja/": "警告",
+              "/ko/": "경고",
+              "/de/": "Warnung",
+              "/pt/": "Aviso",
+              "/it/": "Avvertimento",
+              "/nl/": "Waarschuwing",
+            },
+          },
+          attention: {
+            label: {
+              "/de-DE/": "Achtung",
+              "/": "Attention",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <!-- Searching -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+    <!-- Copy to Clipboard -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+    <!-- Pagination -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <!-- Tabs -->
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-pangu/lib/pangu.min.js"></script>
+    <!-- Authentication -->
+    <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-auth@1.2.0/dist/docsify-auth.min.js"></script>
+    <!-- Alerts -->
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  </body>
+</html>
