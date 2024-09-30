@@ -1,4 +1,4 @@
-### [🡸 Back to Using Lead](docs/lead/usage.md)
+### [🡸 Back to Using Lead](lead/usage.md)
 <br>
 
 # Configuring Lead
@@ -281,4 +281,4 @@ available_hex_colors:
   "#DDA0DD": "Plum Penguins"
 ```
 
-### [Continue to Making Backups 🡺](docs/lead/backups.md)
+### [Continue to Making Backups 🡺](lead/backups.md)

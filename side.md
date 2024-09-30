@@ -1,21 +1,21 @@
 - Lead
-  - [What is Lead?](docs/lead/overview.md)
-  - [Installing Lead](docs/lead/installation.md)
-  - [Using Lead](docs/lead/usage.md)
-  - [Configuring Lead](docs/lead/configuration.md)
-  - [Making Backups](docs/lead/backups.md)
-  - [Using Lead's API](docs/lead/api.md)
+  - [What is Lead?](lead/overview.md)
+  - [Installing Lead](lead/installation.md)
+  - [Using Lead](lead/usage.md)
+  - [Configuring Lead](lead/configuration.md)
+  - [Making Backups](lead/backups.md)
+  - [Using Lead's API](lead/api.md)
 - Bookshelf
-  - [What is Bookshelf?](docs/bookshelf/overview.md)
-  - [Installing Bookshelf](docs/bookshelf/installation.md)
-  - [Using Bookshelf](docs/bookshelf/usage.md)
-  - [Configuring Bookshelf](docs/bookshelf/configuration.md)
-  - [Using Bookshelf's API](docs/bookshelf/api.md)
+  - [What is Bookshelf?](bookshelf/overview.md)
+  - [Installing Bookshelf](bookshelf/installation.md)
+  - [Using Bookshelf](bookshelf/usage.md)
+  - [Configuring Bookshelf](bookshelf/configuration.md)
+  - [Using Bookshelf's API](bookshelf/api.md)
 - Observer
-  - [What is Observer?](docs/observer/overview.md)
-  - [Installing Observer](docs/observer/installation.md)
-  - [Using Observer](docs/observer/usage.md)
-  - [Using Observer's API](docs/observer/api.md)
+  - [What is Observer?](observer/overview.md)
+  - [Installing Observer](observer/installation.md)
+  - [Using Observer](observer/usage.md)
+  - [Using Observer's API](observer/api.md)
 
 Lodestone Services LLC © 2024<br />
 All Rights Reserved
